@@ -1,6 +1,8 @@
 # JavaScipt-task2
 
-## we have 6 questions we need to write code for them using popup box in javaScript
+## I have 6 questions i need to write code for them using popup box in javaScript
+
+## I have More questions from 7 - 13 to practice loop
 
 ## live url
 

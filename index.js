@@ -54,3 +54,69 @@ switch(numWrite){
 default:
     alert("Pleae try again");
 }
+
+
+/***************************** LOOP *********************************/ 
+
+//Q7:
+for(var i=0; i<=5 ; i++){
+    alert("Q7 : "+i);
+}
+ 
+
+//Q8:
+var num="";
+for(var i=0; i<=5 ; i++){
+   num= num+i;
+}
+ alert("Q8 : "+num);
+
+
+//Q9:
+var multiplyNum=""
+for(var i=0; i<=20 ; i++){
+    if(i%3==0){
+        multiplyNum+= i+" "; 
+    }
+ }
+ alert("Q9 : "+multiplyNum);
+
+//Q 10:
+
+ var num=parseInt(prompt("Q 10 :please enter num from 0 - 100",""));
+while(num<0 ||num>100){
+ num=parseInt(prompt("Error : Enter a valid number ",""));
+}
+alert("Valid number :)");
+
+
+ //Q 11:
+ var num=parseInt(prompt("Q 10 :please enter somthing that is not a number",""));
+while(isNaN(num)){
+ num=parseInt(prompt("Error : Enter a valid number ",""));
+}
+alert("Valid number :)");
+
+
+//Q 12:
+var sum=0;
+var num=parseInt(prompt("Q 12 :please enter num ",""));
+for(var i=0; i<= num; i++){
+    sum+=i;
+}
+alert("The total sum from '0' to the num you enter "+sum);
+
+//Q 13:
+
+var sum=0;
+var avg=0.0;
+var count =0;
+var num=parseInt(prompt("Q 13 :please enter num to count avarage ",""));
+for(var i=0; i<= num; i++){
+    count++;
+    sum+=i;
+    avg =sum/count;
+}
+alert("The total sum from '0' to the num you enter "+avg);
+
+
