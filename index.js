@@ -2,8 +2,8 @@
 var num =prompt("Q1 : Enter your number ","");
 alert("The number is "+num);
 
-var num1 =prompt("Q2 : Enter your First number ",""); //if i use parseInt every thing work ok 
-var num2 =prompt("Q2 : Enter your Second number ","");//if i use parseInt every thing work ok 
+var num1 =parseInt(prompt("Q2 : Enter your First number ",""));
+var num2 =parseInt(prompt("Q2 : Enter your Second number ","")); 
 if(num1==num2){
     alert("The numbers is equal ");
 }else if(num1<num2){
